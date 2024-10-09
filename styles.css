@@ -3,7 +3,7 @@ body{
 }
 /* navigation bar */
 .navbar {
-    background-color: #656363;
+    background-color: #161617fe;
     display: flex;
     justify-content: space-around ;
     align-items: center;
@@ -33,6 +33,8 @@ body{
 }
 
 .navbar .products a{
+    position: relative;
+    top: 3px;
    color: rgb(206, 202, 202); 
    text-decoration: none;
    text-align: center;

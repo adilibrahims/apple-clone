@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    background-color: #f0f0f0
+   }
+   /* navigation bar */
+   .navbar2 {
+       background-color: #f0f0f0;
+       display: flex;
+       justify-content: space-around ;
+       align-items: center;
+       padding: 10px 20px;
+       height: 30px;
+       position: relative;
+       z-index: 1;
+    
+   }
+
+
+
+   /* apple logo on the navbar left */
+.navbar2 .products2 .logo2 {     
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+/* the products on navbar */
+.navbar2 .products2{
+    display: flex;
+    gap: 40px;
+    top: 4px;
+    position: sticky;
+  
+}
+
+.navbar2 .products2 a{
+
+    position: relative;
+    top: 3px;
+   color: rgb(0, 0, 0); 
+   text-decoration: none;
+   text-align: center;
+   font-size: 12px;
+   align-items: center;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* the promo div under the navbar */
+.promo2 {
+
+    background-color: #ffffffde;
+    text-align: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding: 10px;
+    font-size: 14px;
+    height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.promo2 a {
+    color: #0071E3;
+    text-decoration: none;
+ 
+}
+
+
+
+
+
+
+
+
+.text1{
+}
+
+.text1 .Store{
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #8405cd;
+    top: 60px;
+    left: 100px;
+    font-weight: 500;
+}
+
+.text1 .best{
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #6a696d;
+    left: 189px;
+    font-weight: 500;
+}
+
+.text1 .festive{
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #6a696d;
+    left: 100px;
+    bottom: 28px;
+    font-weight: 500;
+}
+
+
+
+
+
+.product-scroll-container {
+    display: flex;
+    overflow-x: scroll;
+    padding: 30px;
+    gap: 50px;
+}
+
+.product-item {
+    width: 150px;
+    text-align: center;
+}
+
+.product-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-item img {
+    width: 190px;
+    height: 100px;
+    display: flex;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.product-item span {
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
